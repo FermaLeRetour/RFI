@@ -1,8 +1,4 @@
 <?php
-$files=scandir(__DIR__);
-
-foreach($files as $file){
-    echo $file . "\n";
-}
+echo file_get_contents(index.php);
 
 ?>
